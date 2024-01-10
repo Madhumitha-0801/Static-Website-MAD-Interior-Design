@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+}
+@media only screen and (max-width: 1100px) and (min-width: 440px);
+.header-top {
+    display: block;
+}
+.header-top {
+    border-color: #252525;
+    background-color: #252525;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 43px;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+@media (min-width: 768px)
+.col-sm-8 {
+    width: 66.66666667%;
+}
+@media (min-width: 768px)
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.header-top .news {
+    background: #ae9775 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -50px;
+    padding: 0px 5px 7px 75px;
+    position: relative;
+}
+.header-top p{
+    margin-bottom:0px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.marquee{
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    width: 750px;
+    margin-left: 12.5%;
+}
+.marquee span{
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+    color: #fff;
+    margin-top: 10px;
+}
+@keyframes marquee{
+ 0% {
+    transform: translate(0, 0);
+}
+100% {
+    transform: translate(-100%, 0);
+}
+}
+@media (min-width: 768px)
+.col-sm-4 {
+    width: 33.33333333%;
+}
+@media (min-width: 768px)
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.float-right {
+    float: right;
+}
+.ht-link ul {
+    padding: 0px;
+}
+.header-top ul {
+    margin-bottom: 0px;
+}
+dl, ol, ul {
+    list-style-type: none;
+    padding: 0px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.header-top .ht-link ul li {
+    display: inline-block;
+    color: #fff;
+    border-left: 1px solid #ae9775;
+    padding: 0px 18px;
+}
+.header-top .ht-link ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 42px;
+}
+a {
+    color: #9b9b9b;
+    text-decoration: none;
+    transition: .25s;
+}
+a {
+    background-color: transparent;
+}
+.header-top ul li i {
+    font-size: 16px;
+    color: #ae9775;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*.header {
+    background: #252525;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    transform: translateZ(0);
+    transition: all 0.5s;
+    animation-direction: normal;
+    animation-duration: 0.3s;
+    z-index: 999;
+    padding: 10px 0px;
+}*/
+.top-background{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url('http://cdn.home-designing.com/wp-content/uploads/2016/06/dark-and-sophisticated-interior-ideas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu{
+    padding: 10px;
+}
+.menu-ul li{
+    display: inline-block;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    padding: 7px 23px;
+}
+a{
+    border-bottom: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.sticky{
+    background: #0f4c75;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+}
+.sticky ul{
+    padding: 0;
+    margin: 5px;
+}
+.page-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 200px;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 0 0 5px #0f4c75;
+}
+.description{
+    font-variant: small-caps;
+    font-size: 30px;
+    margin: 20px;
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 0 10px;
+	/*border-radius: 25px;*/
+	font-weight: bold;
+	border: 2px solid #FFFFFF;
+	background: transparent;
+	color: #FFFFFF;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button:hover{
+	background: #726E6D	;
+	border: 2px solid #FFFFFF;
+}
+.page-blocks{
+    text-align: center;
+    margin-top: 50px;
+}
+.title{
+    letter-spacing: 10px;
+    color: #0f4c75;
+}
+.design img{
+    height: 35%;
+    max-width: 95%;
+    margin: 15px;
+}
+.more-designs-btns{
+    background: transparent;
+    border: 2px solid #0f4c75;
+    color: #0f4c75;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+.more-designs-btns:hover{
+    background: #0f4c75;
+    color: white;
+    transition: all 0.5s;
+}
+.more-designs-btns a{
+    color: #0f4c75;
+}
+.more-designs-btns a:hover{
+    color: #ffffff;
+}
+.flex-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.Why-Us-flex-item{
+    background: #0f4c75;
+    color: white;
+    width: 20%;
+    padding: 40px;
+    margin: 40px;
+    
+}
+.block-label{
+    font-variant: small-caps;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.block-description{
+    text-align: justify;
+}
+.block-number{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+.appointment-flex-item{
+    background: #0f4c75;
+    color: white;
+    height: 450px;
+    width: 45%;
+    padding: 0px;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.appointment-img{
+    background-image: url('https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-82ca288/www.decorilla.com/online-decorating/wp-content/uploads/2018/10/modern-interior-design-grey-living-room2.png');
+    background-size: cover;
+}
+.appointment-text{
+    padding: 150px 260px;
+    font-size: 50px;
+    background: rgba(0,0,0,0.5);
+    text-align: justify;
+}
+.appointment-form{
+    padding: 20px;
+}
+.appointment-form input, textarea{
+    width: 60%;
+    max-width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    text-align: center;
+    color: #0f4c75;
+    font-size: 16px;
+}
+.appointment-form textarea{
+    height: 100px;
+    max-height: 100px;
+    max-width: 60%;
+    overflow: scroll;
+}
+.appointment-btn{
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 15px;
+    outline: none;
+}
+.appointment-btn:hover{
+    background: white;
+    color: #0f4c75;
+}
+.footer{
+    background: #0f4c75;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.locations{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 27%;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    padding: 20px;
+}
+.address{
+    font-weight: lighter;
+    padding: 20px;
+    font-size: 16px;
+}
+.social-media-icons,i{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.copyrights,c{
+    background-color: #0f4c75;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 0.2px;
+}

@@ -1,0 +1,397 @@
+body{
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    background: #ffffff;
+    color: #292929;
+
+}
+@media only screen and (max-width: 1100px) and (min-width: 440px);
+.header-top {
+    display: block;
+}
+.header-top {
+    border-color: #252525;
+    background-color: #252525;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 43px;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+@media (min-width: 768px)
+.col-sm-8 {
+    width: 66.66666667%;
+}
+@media (min-width: 768px)
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.header-top .news {
+    background: #ae9775 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -50px;
+    padding: 0px 5px 7px 75px;
+    position: relative;
+}
+.header-top p{
+    margin-bottom:0px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.marquee{
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    width: 650px;
+    margin-left: 12.5%;
+}
+.marquee span{
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+    color: #fff;
+    margin-top: 10px;
+}
+@keyframes marquee{
+ 0% {
+    transform: translate(0, 0);
+}
+100% {
+    transform: translate(-100%, 0);
+}
+}
+.float-right {
+    float: right;
+}
+.ht-link ul {
+    padding: 0px;
+}
+.header-top ul {
+    margin-bottom: 0px;
+}
+dl, ol, ul {
+    list-style-type: none;
+    padding: 0px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.header-top .ht-link ul li {
+    display: inline-block;
+    color: #fff;
+    border-left: 1px solid #ae9775;
+    padding: 0px 18px;
+}
+.header-top .ht-link ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 42px;
+}
+a {
+    color: #9b9b9b;
+    text-decoration: none;
+    transition: .25s;
+}
+a {
+    background-color: transparent;
+}
+.header-top ul li i {
+    font-size: 16px;
+    color: #ae9775;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.menu{
+    padding: 10px;
+}
+.menu-ul li{
+    display: inline-block;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    padding: 7px 23px;
+}
+a{
+    border-bottom: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.sticky{
+    background: #0f4c75;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+}
+.sticky ul{
+    padding: 0;
+    margin: 5px;
+}
+.inner-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('http://www.transfield.com.au/THfirst60years/images/milestones/momment16/16_p5_1.jpg') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: #fff;
+    background-attachment: fixed;
+    height: 50vh;
+    position: relative;
+}
+section {
+    display: block;
+}
+@media only screen and (max-width: 3000px) and (min-width: 1100px);
+.container {
+    max-width: 1200px;
+    width: 1200px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+@media (min-width: 992px);
+.col-md-12 {
+    width: 100%;
+}
+@media (min-width: 992px);
+.col-md-5{
+    float: left;
+}
+.col-sm-5, .col-md-5, .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.inner-banner-text {
+    padding-top: 20vh;
+}
+.text-center {
+    text-align: center;
+}
+h1, .h1{
+    font-size: 50px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10psx;
+}
+.blog-main-page {
+    padding: 90px 0px;
+    position: relative;
+}
+@media only screen and (max-width: 3000px) and (min-width: 1100px);
+.container {
+    max-width: 1200px;
+    width: 1200px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+@media (min-width: 992px);
+.col-md-8 {
+    width: 66.66666667%;
+}
+@media (min-width: 992px);
+.col-md-8 {
+    float: left;
+}
+.col-md-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+element.style {
+    height: 700px;
+}
+@media (min-width: 992px);
+.col-md-12 {
+    float: left;
+}
+.col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+div {
+    display: block;
+}
+a {
+    text-decoration: none;
+    transition: .25s;
+}
+a {
+    background-color: transparent;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.blog-main-page .summary {
+    padding: 15px;
+    background-color: #F3F3F3;
+    margin-bottom: 40px;
+}
+.blog-main-page .summary h3 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.blog-main-page .summary p {
+    margin-bottom: 20px;
+}
+p {
+    margin: 0 0 10px;
+}
+.block {
+    background-color: #0f4c75;
+    color: #fff;
+}
+.black-btn {
+    color: #fff;
+    box-shadow: inset 0 0px 0 0 #B19777;
+    padding: 10px 25px;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 13px;
+}
+@media (min-width: 992px);
+.col-md-4 {
+    width: 33.33333333%;
+}
+@media (min-width: 992px);
+.col-md-4 {
+    float: left;
+}
+.col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.widget-area aside {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #f3f3f3;
+}
+aside {
+    display: block;
+}
+.widget-area .widget-title {
+    font-size: 20px;
+    line-height: 1.2em;
+    text-align: left;
+    color: #0f4c75;
+    position: relative;
+    text-transform: none;
+    margin-bottom: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid #0f4c75;
+}
+ul {
+    list-style-type: square;
+    padding: 10px;
+}
+.widget-area aside li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+.widget-area aside li a {
+    color: #383838;
+}
+.footer{
+    background: #0f4c75;
+    text-align: center;
+    padding: 20px;
+    margin-top: 2740px;
+    overflow: hidden;
+    top: 0px;
+    }
+.locations{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 27%;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    padding: 20px;
+}
+.address{
+    font-weight: lighter;
+    padding: 20px;
+    font-size: 16px;
+}
+.social-media-icons,i{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.copyrights,c{
+    background-color: #0f4c75;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 0.5px;
+}
